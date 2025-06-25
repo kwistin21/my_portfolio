@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tine Joy | Figma Design Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+      padding: 2rem 0;
+    }
+
+    header {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 3rem 0 2rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0.5rem 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #aaa;
+    }
+
+    .intro {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+
+    .project-card {
+      background: white;
+      border-radius: 10px;
+      padding: 1rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .project-card img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+
+    .project-card h3 {
+      margin-top: 0;
+    }
+
+    .project-card p {
+      font-size: 0.95rem;
+      color: #666;
+    }
+
+    .project-card a {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: #111;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .project-card a:hover {
+      background-color: #333;
+    }
+
+    footer {
+      background: #eee;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Tine Joy</h1>
+      <p>UI/UX Designer | Figma Specialist | Visual Creator</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="intro">
+      <h2>Welcome to My Figma Portfolio</h2>
+      <p>This portfolio showcases selected UI/UX and visual design projects created using Figma. Each project highlights my design process, creativity, and attention to detail.</p>
+    </section>
+
+    <section class="projects">
+      <div class="project-card">
+        <img src="images/organizely-preview.png" alt="Organizely UI Preview">
+        <h3>Organizely App</h3>
+        <p>Productivity web app designed with intuitive navigation and task flow UI.</p>
+        <a href="https://www.figma.com/file/yourfigmalink1" target="_blank">View on Figma</a>
+      </div>
+
+      <div class="project-card">
+        <img src="images/chnatelier-preview.png" alt="CHN Atelier UI Preview">
+        <h3>CHN Atelier</h3>
+        <p>E-commerce UI for beauty and skincare brand with a clean and modern layout.</p>
+        <a href="https://www.figma.com/file/yourfigmalink2" target="_blank">View on Figma</a>
+      </div>
+
+      <div class="project-card">
+        <img src="images/portfolio-preview.png" alt="Personal Portfolio UI Preview">
+        <h3>Personal Portfolio Concept</h3>
+        <p>Responsive portfolio design focusing on user engagement and minimalism.</p>
+        <a href="https://www.figma.com/file/yourfigmalink3" target="_blank">View on Figma</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Tine Joy | <a href="mailto:your@email.com">Contact Me</a> | <a href="https://github.com/yourusername">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>
